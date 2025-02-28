@@ -1,0 +1,531 @@
+@media screen and (min-width: 479px) {
+    .header-menu .responsive-btn {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 478px) {
+    .h-btn .btn.btn-primary {
+        display: none;
+    }
+}
+@media screen and (max-width: 575px){
+    .fs-30 {
+        font-size: 22px;
+    }
+    .fs-18,
+    body {
+        font-size: 14px;
+    }
+    .mb-55,
+    .mb-40 {
+        margin-bottom: 20px;
+    }
+    .mb-50 {
+        margin-bottom: 30px;
+    }
+    .btn.btn-primary.w-ico {
+        gap: 15px;
+    }
+    .btn.btn-primary.w-ico > img {
+        height: 35px;
+        width: 35px;
+    }
+    .header-main .logo img {
+        max-width: 150px;
+    }
+    .hero-text > h1,
+    .page-title > h2,
+    .text-sec h2,
+    .page-title > h2.fs-39,
+    .o-process-card .page-title > h2,
+    .breadcrumb-text .page-title > h1,
+    .blog-detail-area h1,
+    .legel-terms .page-title > h1 {
+        font-size: 26px;
+    }
+    .hero-text > p,
+    .btn.btn-primary,
+    .breadcrumb-text > p {
+        font-size: 16px;
+    }
+    .industry-list > ul > li > a,
+    .author-text > h3,
+    .t-author .t-review,
+    .faq-box-list > .content > p,
+    .blog-meta ul > li {
+        font-size: 15px;
+    }
+    .existing-text > h3,
+    .faq-box-list > a,
+    .blog-detail-area p,
+    .terms-main h3 {
+        font-size: 18px;
+    }
+    .development-card h3 {
+        font-size: 24px;
+    }
+    .t-author .t-review > svg {
+        width: 20px;
+        height: 20px;
+    }
+    .blue-card svg {
+        max-width: 60px;
+    }
+}
+@media screen and (max-width: 767px){
+    .page-paddings,
+    .page-background {
+        padding: 50px 0px;
+    }
+    br {
+        display: none;
+    }
+    header {
+        top: 15px;
+    }
+    header.mt-40 {
+        margin-top: 15px;
+    }
+    .hero,
+    .breadcrumb-area {
+        padding: 120px 0px 50px;
+        text-align: center;
+    }
+    .hero-text .btn.btn-primary {
+        margin: 0px auto;
+    }
+    .hero .hero-media {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .hero-media img {
+        max-width: 250px;
+    }
+    .b-call-main {
+        padding: 50px 15px;
+    }
+    .faq-box-list > a.active::before {
+        height: 120vh;
+        width: 160%;
+    }
+    .f-logo img {
+        max-width: 180px;
+    }
+    .development-area .development-left {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .development-area .development-left .btn.btn-primary {
+        margin: 0px auto;
+    }
+    .pro-head > span {
+        font-size: 60px;
+    }
+    .consulting-media {
+        text-align: center;
+    }
+    .consulting-media img {
+        max-width: 300px;
+    }
+    .blockchain-consulting .consulting-text {
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .consulting-services .blue-card.full-card {
+        padding: 24px;
+    }
+    .consulting-services .blue-card.full-card .d-flex {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        gap: 15px;
+    }
+    .page-paddings.pt-70 {
+        padding-top: 30px;
+    }
+    .quate {
+        gap: 8px;
+    }
+    .b-tag > a {
+        font-size: 14px;
+    }
+    .footer-item > h2 {
+        margin: 30px 0px 20px;
+    }
+    .footer-copyright {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .footer-copyright {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center !important;
+        gap: 15px;
+        padding: 30px 0px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    .fs-30 {
+        font-size: 26px;
+    }
+    .fs-18,
+    .faq-box-list > .content > p {
+        font-size: 16px;
+    }
+    .header-main .logo img {
+        max-width: 180px;
+    }
+    .hero,
+    .breadcrumb-area {
+        padding: 160px 0px 50px;
+    }
+    .hero-text > h1,
+    .page-title > h2,
+    .text-sec h2,
+    .page-title > h2.fs-39,
+    .o-process-card .page-title > h2,
+    .breadcrumb-text .page-title > h1,
+    .blog-detail-area h1,
+    .legel-terms .page-title > h1 {
+        font-size: 28px;
+    }
+    .hero-text > p,
+    .btn.btn-primary,
+    .author-text > h3,
+    .t-author .t-review,
+    .breadcrumb-text > p,
+    .blog-detail-area p {
+        font-size: 18px;
+    }
+    .industry-list > ul > li > a,
+    .terms-main h3 {
+        font-size: 20px;
+    }
+    .existing-text > h3,
+    .faq-box-list > a {
+        font-size: 20px;
+    }
+    .t-author .t-review > svg {
+        width: 20px;
+        height: 20px;
+    }
+    .development-card h3 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .header-main .logo img {
+        max-width: 180px;
+    }
+    .development-area .development-left {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .development-area .development-left .btn.btn-primary {
+        margin: 0px auto;
+    }
+    .blockchain-consulting .consulting-text {
+        padding-left: 0px;
+    }
+    .consulting-text .page-title > h2 {
+        font-size: 24px;
+    }
+    .consulting-text ul > li {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .show-menu {
+        overflow: hidden;
+    }
+    .collapse:not(.show) {
+        display: inherit;
+    }
+    .h-btn > .navbar-toggler {
+        padding: 0px;
+        color: #fff;
+        border: 0px;
+        outline: 0;
+        box-shadow: none;
+        font-size: 28px;
+    }
+    header .navbar {
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        display: block;
+        background-color: #ffffff;
+        z-index: 99;
+        padding: 20px !important;
+        transition: all 0.3s;
+        transform: translateY(100%);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .show-menu header .navbar {
+        transform: translateY(0px);
+        opacity: 1;
+        visibility: visible;
+    }
+    .header-menu .r-header {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
+        max-width: 400px;
+        margin: 0px auto 20px;
+    }
+    .header-menu .navbar-collapse {
+        max-width: 400px;
+        margin: 0px auto;
+        max-height: calc(100vh - 175px);
+        overflow-y: auto;
+    }
+    .r-header img {
+        max-width: 160px;
+    }
+    .header-menu .nav-item {
+        margin: 0px 0px 12px;
+    }
+    .header-menu .nav-item:last-child {
+        margin: 0px;
+    }
+    .header-menu .nav-item > .nav-link {
+        font-size: 16px;
+    }
+    .header-menu .nav-item .dropdown-menu {
+        display: block;
+        border: 0px;
+        margin: 8px 0px 0px;
+        padding: 0px 0px 0px 30px;
+    }
+    .header-menu .nav-item .dropdown-menu > li {
+        margin-bottom: 10px;
+        list-style: disc;
+    }
+    .header-menu .nav-item .dropdown-menu > li:last-child {
+        margin-bottom: 0px;
+    }
+    .header-menu .nav-item .dropdown-menu .dropdown-item {
+        padding: 0px;
+        font-size: 15px;
+        color: #000;
+        background-color: transparent;
+    }
+    .nav-item.dropdown .dropdown-menu > li > .dropdown-item.active, 
+    .nav-item.dropdown .dropdown-menu > li > .dropdown-item:hover {
+        color: #6B5DA8;
+    }
+    .header-menu .responsive-btn {
+        position: absolute;
+        bottom: 15px;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        max-width: 400px;
+        margin: 0px auto;
+    }
+    .responsive-btn .btn.btn-primary {
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 479px) and (max-width: 991px) {
+    .header-menu .navbar-collapse {
+        max-height: calc(100vh - 100px);
+    }
+}
+@media screen and (max-width: 400px) {
+    header .navbar > .responsive-btn {
+        padding: 0px 20px;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 768px){
+    body {
+        font-size: 14px;
+    }
+    br {
+        display: none;
+    }
+    .page-paddings,
+    .page-background {
+        padding: 50px 0px;
+    }
+    .fs-30 {
+        font-size: 24px;
+    }
+    .fs-25 {
+        font-size: 20px;
+    }
+    .fs-18 {
+        font-size: 16px;
+    }
+    .mb-50 {
+        margin-bottom: 30px;
+    }
+    .page-title > p {
+        max-width: 620px;
+    }
+    .hero.h-100 {
+        height: auto !important;
+    }
+    .hero-text > h1,
+    .page-title > h2,
+    .text-sec h2,
+    .page-title > h2.fs-39,
+    .o-process-card .page-title > h2,
+    .breadcrumb-text .page-title > h1,
+    .legel-terms .page-title > h1,
+    .blog-detail-area h1 {
+        font-size: 36px;
+    }
+    .hero-text > p {
+        font-size: 18px;
+    }
+    .partner .partner-slide {
+        padding: 24px 0px;
+        gap: 16px;
+    }
+    .existing-text > h3,
+    .industry-list > ul > li > a,
+    .btn.btn-primary,
+    .faq-box-list > .content > p,
+    .breadcrumb-text > p {
+        font-size: 18px;
+    }
+    .faq-box-list > a,
+    .process-card > h3,
+    .terms-main h3 {
+        font-size: 20px;
+    }
+    .pro-head > span {
+        font-size: 60px;
+    }
+    .breadcrumb-area {
+        padding: 200px 0px 60px;
+    }
+    .footer-copyright {
+        padding: 30px 0px;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    .header-main .logo img {
+        max-width: 160px;
+    }
+    .industry-list > ul > li > a {
+        font-size: 16px;
+    }
+    .author-text > h3,
+    .t-author .t-review {
+        font-size: 16px;
+    }
+    .t-review > svg {
+        width: 18px;
+        height: 18px;
+    }
+}
+@media screen and (max-width: 1399px) and (min-width: 1200px){
+    .page-paddings,
+    .page-background {
+        padding: 60px 0px;
+    }
+    .fs-30 {
+        font-size: 26px;
+    }
+    .hero-text > h1,
+    .page-title > h2,
+    .text-sec h2,
+    .page-title > h2.fs-39,
+    .o-process-card .page-title > h2,
+    .legel-terms .page-title > h1 {
+        font-size: 36px;
+    }
+    .hero-text > h1,
+    .breadcrumb-text .page-title > h1 {
+        font-size: 42px;
+    }
+    .hero-text > p,
+    .industry-list > ul > li > a,
+    .faq-box-list > .content > p,
+    .breadcrumb-text > p {
+        font-size: 18px;
+    }
+    .process-card > h3 {
+        font-size: 20px;
+    }
+    .pro-head > span {
+        font-size: 80px;
+    }
+    .breadcrumb-area {
+        padding: 200px 0px 60px;
+    }
+    .terms-main h3 {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 1599px) and (min-width: 1400px){
+    .fs-30 {
+        font-size: 26px;
+    }
+    .hero-text > h1,
+    .breadcrumb-text .page-title > h1 {
+        font-size: 42px;
+    }
+    .hero-text > p,
+    .industry-list > ul > li > a,
+    .faq-box-list > .content > p,
+    .breadcrumb-text > p {
+        font-size: 20px;
+    }
+    .pro-head > span {
+        font-size: 80px;
+    }
+    .breadcrumb-area {
+        padding: 200px 0px 60px;
+    }
+    .legel-terms .page-title > h1 {
+        font-size: 42px;
+    }
+}
+@media screen and (min-width: 992px) {
+    header .r-header,
+    header .responsive-btn {
+        display: none !important;
+    }
+    .h-btn .navbar-toggler {
+        display: none;
+    }
+    .nav-item.dropdown .dropdown-menu {
+        border: 1px solid #F2F2F7;
+        background-color: #E7F3FF;
+        top: 56px;
+        padding: 4px 0px;
+        min-width: 190px;
+    }
+    .nav-item.dropdown .dropdown-menu > li > .dropdown-item {
+        font-size: 15px;
+        padding: 8px 15px;
+        background-color: transparent;
+    }
+    .nav-item.dropdown .dropdown-menu > li > .dropdown-item.active,
+    .nav-item.dropdown .dropdown-menu > li > .dropdown-item:hover {
+        color: #6B5DA8;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .container, 
+    .container-lg, 
+    .container-md, 
+    .container-sm, 
+    .container-xl, 
+    .container-xxl {
+        max-width: 1440px;
+    }
+}
+@media screen and (min-width: 1920px) {
+    .hero.h-100 {
+        height: 100vh !important;
+    }
+}
