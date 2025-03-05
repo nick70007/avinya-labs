@@ -95,6 +95,23 @@ h1, h2, h3, h4, h5, h6 {
 .owl-dots {
     display: none;
 }
+.form-group label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+}
+.form-group .form-control {
+    border: 1px solid #eee;
+    padding: 12px 15px;
+    font-size: 15px;
+    color: #000;
+    height: auto;
+    min-height: auto;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 5px;
+}
 .btn.btn-primary {
     font-size: 20px;
     color: #fff;
@@ -298,6 +315,11 @@ header {
 /* Hero */
 .partner.p-bg {
     background: linear-gradient(105.18deg, #9EC0FA 0%, #9FD9FD 100%);
+}
+.partner-slide .owl-stage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .partner .partner-slide {
     padding: 24px 0px;
@@ -757,6 +779,36 @@ header {
     left: 0px;
 }
 
+/* Modal */
+.modal-open {
+    padding: 0 !important;
+}
+.modal-backdrop.show {
+    opacity: .8;
+}
+.modal-content {
+    border-radius: 15px;
+}
+.modal-header {
+    border-color: #eee;
+}
+.modal-title {
+    font-size: 22px;
+}
+.modal-header .btn-close {
+    padding: 0px;
+    margin: 0px;
+    opacity: 1;
+    outline: 0;
+    box-shadow: none;
+}
+.contact-form .btn.btn-primary {
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+/* Modal */
+
 /* Footer */
 footer {
     background-color: #F3F9FF;
@@ -774,6 +826,10 @@ footer {
 .footer-item > ul > li > a {
     font-size: 16px;
     color: #000000;
+    transition: all 0.3s;
+}
+.footer-item > ul > li > a:hover {
+    color: #6B5DA8;
 }
 .footer-copyright {
     border-top: 1px solid rgb(0 0 0 / 30%);

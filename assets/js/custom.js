@@ -13,7 +13,7 @@ $(function() {
 
 $('.partner-slide').owlCarousel({
     autoplay: true,
-    autoplayTimeout: 5000,
+    autoplayTimeout: 2000,
     autoplayHoverPause: false,
     loop: true,
     margin: 20,

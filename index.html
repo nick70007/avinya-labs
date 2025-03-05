@@ -51,7 +51,7 @@
                                     <a class="nav-link" href="blog.html">Blogs</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="#book-call">Contact Us</a>
+                                    <a class="nav-link" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#get-in-touch">Get In Touch</a>
                                  </li>
                               </ul>
                            </div>
@@ -77,8 +77,8 @@
             <div class="row align-items-center">
                <div class="col-lg-7 col-md-7 col-12">
                   <div class="hero-text">
-                     <h1>We strive to shape the future of Web3 together with our clients as their leading and trusted Web3 service partner.</h1>
-                     <p>We bring our clients’ projects to successful realization through careful execution and close collaboration. We place great emphasis on ethical behavior and decision-making with integrity. This way, we strive to fulfill our vision and positively impact the Web3 industry.</p>
+                     <h1>We collaborate with clients to shape the future of Web3 as their trusted service partner.</h1>
+                     <p>We turn our clients' visions into reality through precise execution, collaboration, and a strong commitment to ethics and integrity, driving positive impact in the Web3 industry.</p>
                      <div class="page-btn">
                         <button onclick="showCalendly();" class="btn btn-primary w-ico">
                            Book A Call
@@ -115,7 +115,7 @@
          <div class="container-fluid">
             <div class="row">
                <div class="col-12">
-                  <div class="partner-slide">
+                  <div class="partner-slide d-flex justify-content-between align-items-center">
                      <div class="p-item text-center">
                         <img src="assets/images/partner/1.png" alt="">
                      </div>
@@ -133,6 +133,27 @@
                      </div>
                      <div class="p-item text-center">
                         <img src="assets/images/partner/6.png" alt="">
+                     </div>
+                     <div class="p-item text-center">
+                        <img src="assets/images/partner/7.png" alt="">
+                     </div>
+                     <div class="p-item text-center">
+                        <img src="assets/images/partner/8.png" alt="">
+                     </div>
+                     <div class="p-item text-center">
+                        <img src="assets/images/partner/9.png" alt="">
+                     </div>
+                     <div class="p-item text-center">
+                        <img src="assets/images/partner/10.png" alt="">
+                     </div>
+                     <div class="p-item text-center">
+                        <img src="assets/images/partner/11.png" alt="">
+                     </div>
+                     <div class="p-item text-center">
+                        <img src="assets/images/partner/12.png" alt="">
+                     </div>
+                     <div class="p-item text-center">
+                        <img src="assets/images/partner/13.png" alt="">
                      </div>
                   </div>
                </div>
@@ -634,7 +655,10 @@
                            <img src="assets/images/logo.png" alt="">
                            </a>
                         </div>
-                        <p class="fs-18">We strive to shape the future of Web3 together with our clients as their <br>leading and trusted Web3 service partner.</p>
+                        <p class="fs-18 mb-20">We strive to shape the future of Web3 together with our clients as their <br>leading and trusted Web3 service partner.</p>
+                        <div class="page-btn">
+                           <button class="btn btn-primary w-ico" data-bs-toggle="modal" data-bs-target="#get-in-touch">Get In Touch<img src="assets/images/icon/arrow.svg" alt=""></button>
+                        </div>
                      </div>
                   </div>
                   <div class="col-lg-3 col-md-4 col-12">
@@ -709,10 +733,50 @@
             </div>
          </div>
       </footer>
+      <!-- Modal -->
+      <div class="modal fade" id="get-in-touch" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Get In Touch</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="custom-popup">
+                 <div class="contact-form">
+                    <form>
+                       <div class="form-group mb-15">
+                           <label>Name</label>
+                          <input class="form-control" type="" name="">
+                       </div>
+                       <div class="form-group mb-15">
+                           <label>Email</label>
+                          <input class="form-control" type="" name="">
+                       </div>
+                       <div class="form-group mb-15">
+                           <label>Phone Number</label>
+                          <input class="form-control" type="" name="">
+                       </div>
+                       <div class="form-group mb-15">
+                           <label>Message</label>
+                          <textarea class="form-control" rows="3"></textarea>
+                       </div>
+                       <div class="g-recaptcha mb-15" data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"></div>
+                       <div class="page-btn">
+                          <button class="btn btn-primary">Submit</button>
+                       </div>
+                    </form>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/bootstrap.bundle.min.js"></script>
       <script src="assets/js/owl.carousel.min.js"></script>
       <script src="assets/js/widget.js" type="text/javascript"></script>
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
       <script src="assets/js/custom.js"></script>
    </body>
 </html>
